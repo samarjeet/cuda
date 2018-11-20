@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named cudaMatrixSum
+
+# Build rule for target.
+cudaMatrixSum: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 cudaMatrixSum
+.PHONY : cudaMatrixSum
+
+# fast build rule for target.
+cudaMatrixSum/fast:
+	$(MAKE) -f CMakeFiles/cudaMatrixSum.dir/build.make CMakeFiles/cudaMatrixSum.dir/build
+.PHONY : cudaMatrixSum/fast
+
+#=============================================================================
 # Target rules for targets named cudaPerfProj
 
 # Build rule for target.
@@ -150,6 +163,33 @@ b.cu.s:
 	$(MAKE) -f CMakeFiles/cudaPerfProj.dir/build.make CMakeFiles/cudaPerfProj.dir/b.cu.s
 .PHONY : b.cu.s
 
+matrixSum.o: matrixSum.cu.o
+
+.PHONY : matrixSum.o
+
+# target to build an object file
+matrixSum.cu.o:
+	$(MAKE) -f CMakeFiles/cudaMatrixSum.dir/build.make CMakeFiles/cudaMatrixSum.dir/matrixSum.cu.o
+.PHONY : matrixSum.cu.o
+
+matrixSum.i: matrixSum.cu.i
+
+.PHONY : matrixSum.i
+
+# target to preprocess a source file
+matrixSum.cu.i:
+	$(MAKE) -f CMakeFiles/cudaMatrixSum.dir/build.make CMakeFiles/cudaMatrixSum.dir/matrixSum.cu.i
+.PHONY : matrixSum.cu.i
+
+matrixSum.s: matrixSum.cu.s
+
+.PHONY : matrixSum.s
+
+# target to generate assembly for a file
+matrixSum.cu.s:
+	$(MAKE) -f CMakeFiles/cudaMatrixSum.dir/build.make CMakeFiles/cudaMatrixSum.dir/matrixSum.cu.s
+.PHONY : matrixSum.cu.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -157,11 +197,15 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... edit_cache"
+	@echo "... cudaMatrixSum"
 	@echo "... rebuild_cache"
 	@echo "... cudaPerfProj"
 	@echo "... b.o"
 	@echo "... b.i"
 	@echo "... b.s"
+	@echo "... matrixSum.o"
+	@echo "... matrixSum.i"
+	@echo "... matrixSum.s"
 .PHONY : help
 
 

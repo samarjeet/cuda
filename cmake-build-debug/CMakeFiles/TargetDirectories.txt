@@ -1,3 +1,4 @@
 /u/samar/Documents/git/cuda/cmake-build-debug/CMakeFiles/edit_cache.dir
+/u/samar/Documents/git/cuda/cmake-build-debug/CMakeFiles/cudaMatrixSum.dir
 /u/samar/Documents/git/cuda/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 /u/samar/Documents/git/cuda/cmake-build-debug/CMakeFiles/cudaPerfProj.dir
