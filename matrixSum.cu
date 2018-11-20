@@ -1,6 +1,7 @@
 #include<iostream>
 #include<stdio.h>
 #include <cuda.h>
+#include <chrono>
 
 int getDeviceProperties(){
   cudaDeviceProp iProp;
@@ -71,7 +72,13 @@ int main(int argc, char *argv[]){
   dim3 block(dimx, dimy);
   dim3 grid((nx + block.x - 1 )/ block.x, (ny + block.y -1)/block.y);
 
+  //size_t iStart, eElaps;
+  cudaDeviceSynchronize();
+  auto iStart = std::chrono::system_clock::now();
   sumMatrixOnGPU2D<<<grid, block >>>(d_a, d_b, d_c, nx, ny);
+  auto iEnd = std::chrono::system_clock::now();
+  std::chrono::duration<double> diff = iEnd - iStart;
+  std::cout << "Time : " << diff.count() << "s \n";
   cudaMemcpy(&h_c, &d_c, sizeof(float)*nx*ny, cudaMemcpyDeviceToHost);
   return 0;
 }
