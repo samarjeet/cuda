@@ -1,0 +1,1 @@
+g++   CMakeFiles/cudaPerfProj.dir/b.cu.o CMakeFiles/cudaPerfProj.dir/cmake_device_link.o -o cudaPerfProj  -L"/v/apps/cuda/9.2.148/lib64/stubs" -L"/v/apps/cuda/9.2.148/lib64" -lcudadevrt -lcudart_static -lrt -lpthread -ldl
