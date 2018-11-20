@@ -5,4 +5,5 @@ set(CMAKE_CXX_STANDARD 11)
 find_package(CUDA)
 message("${CUDA_NVCC_FLAGS}")
 add_executable(cudaPerfProj b.cu)
+add_executable(cudaMatrixSum matrixSum.cu)
 
