@@ -1,6 +1,6 @@
 The system is: Linux - 3.10.0-514.el7.x86_64 - x86_64
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
-Compiler: /v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/bin/intel64/icpc 
+Compiler: /v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/bin/intel64/icpc 
 Build flags: 
 Id flags:  
 
@@ -28,8 +28,8 @@ The output was:
 #$ _TARGET_SIZE_=64
 #$ TOP=/v/apps/cuda/9.2.148/bin/..
 #$ NVVMIR_LIBRARY_DIR=/v/apps/cuda/9.2.148/bin/../nvvm/libdevice
-#$ LD_LIBRARY_PATH=/v/apps/cuda/9.2.148/bin/../lib:/v/apps/cuda/9.2.148/lib64:/v/apps/mpi/mvapich2/2.2-intel16.0.3/lib:/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/compiler/lib/intel64:/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/compiler/lib/intel64_lin:/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/ipp/lib/intel64:/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/mkl/lib/intel64:/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/tbb/lib/intel64/gcc4.4:/v/apps/intel/composer_xe_2016_update3/debugger_2016/libipt/intel64/lib:/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/daal/lib/intel64_lin:/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/daal/../tbb/lib/intel64_lin/gcc4.4:/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/daal/../compiler/lib/intel64_lin:/v/apps/valgrind/3.12.0/lib/valgrind:/v/apps/gdb/7.12-centos7/lib64:/u/samar/Documents/git/protobuf/protbuf_install:/u/samar/Documents/git/caffe2/install/lib
-#$ PATH=/v/apps/cuda/9.2.148/bin/../nvvm/bin:/v/apps/cuda/9.2.148/bin:/v/apps/cuda/9.2.148/bin:/v/apps/cmake/3.9.0/bin:/u/samar/Downloads/pycharm-community-2018.2.3/bin:/u/samar/Documents/git/camcasp-5.9/bin:/v/apps/git/2.14.1/bin:/v/apps/swig/3.0.12-centos7/bin:/v/apps/fftw/3.3.5-centos7/avx-dp:/u/samar/Documents/git/charmm/i_build:/v/apps/mpi/mvapich2/2.2-intel16.0.3/bin:/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/bin/intel64:/v/apps/intel/composer_xe_2016_update3/debugger_2016/gdb/intel64_mic/bin:/v/apps/anaconda/4.2.0-py3.5/bin:/v/apps/valgrind/3.12.0/bin:/v/apps/gdb/7.12-centos7/bin:/v/apps/bin:/usr/lib64/qt-3.3/bin:/u/samar/perl5/bin:/usr/bin:/usr/local/bin:/usr/local/sbin:/usr/sbin:/opt/puppetlabs/bin:/u/samar/bin
+#$ LD_LIBRARY_PATH=/v/apps/cuda/9.2.148/bin/../lib:/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/compiler/lib/intel64:/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/compiler/lib/intel64_lin:/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/ipp/lib/intel64:/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/mkl/lib/intel64_lin:/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/tbb/lib/intel64/gcc4.4:/v/apps/intel/composer_xe_2017/debugger_2017/iga/lib:/v/apps/intel/composer_xe_2017/debugger_2017/libipt/intel64/lib:/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/daal/lib/intel64_lin:/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/daal/../tbb/lib/intel64_lin/gcc4.4:/v/apps/cuda/9.2.148/lib64:/u/samar/Documents/git/protobuf/protbuf_install:/u/samar/Documents/git/caffe2/install/lib
+#$ PATH=/v/apps/cuda/9.2.148/bin/../nvvm/bin:/v/apps/cuda/9.2.148/bin:/v/apps/cmake/3.9.0/bin:/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/bin/intel64:/v/apps/intel/composer_xe_2017/debugger_2017/gdb/intel64_mic/bin:/v/apps/intel/composer_xe_2017/bin:/v/apps/cuda/9.2.148/bin:/u/samar/Downloads/pycharm-community-2018.2.3/bin:/u/samar/Documents/git/camcasp-5.9/bin:/u/samar/Documents/git/charmm/i_build:/v/apps/bin:/usr/lib64/qt-3.3/bin:/u/samar/perl5/bin:/usr/bin:/usr/local/bin:/usr/local/sbin:/usr/sbin:/opt/puppetlabs/bin:/u/samar/bin
 #$ INCLUDES="-I/v/apps/cuda/9.2.148/bin/..//include"  
 #$ LIBRARIES=  "-L/v/apps/cuda/9.2.148/bin/..//lib64/stubs" "-L/v/apps/cuda/9.2.148/bin/..//lib64"
 #$ CUDAFE_FLAGS=
@@ -142,31 +142,31 @@ Parsed CUDA nvcc include information from above output:
 Determining if the CXX compiler works passed with the following output:
 Change Dir: /u/samar/Documents/git/cuda/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_992c8/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_992c8.dir/build.make CMakeFiles/cmTC_992c8.dir/build
+Run Build Command:"/usr/bin/gmake" "cmTC_a3a67/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_a3a67.dir/build.make CMakeFiles/cmTC_a3a67.dir/build
 gmake[1]: Entering directory `/u/samar/Documents/git/cuda/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_992c8.dir/testCXXCompiler.cxx.o
-/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/bin/intel64/icpc     -o CMakeFiles/cmTC_992c8.dir/testCXXCompiler.cxx.o -c /u/samar/Documents/git/cuda/cmake-build-debug/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_992c8
-/v/apps/cmake/3.9.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_992c8.dir/link.txt --verbose=1
-/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/bin/intel64/icpc       CMakeFiles/cmTC_992c8.dir/testCXXCompiler.cxx.o  -o cmTC_992c8 
+Building CXX object CMakeFiles/cmTC_a3a67.dir/testCXXCompiler.cxx.o
+/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/bin/intel64/icpc     -o CMakeFiles/cmTC_a3a67.dir/testCXXCompiler.cxx.o -c /u/samar/Documents/git/cuda/cmake-build-debug/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_a3a67
+/v/apps/cmake/3.9.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a3a67.dir/link.txt --verbose=1
+/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/bin/intel64/icpc       CMakeFiles/cmTC_a3a67.dir/testCXXCompiler.cxx.o  -o cmTC_a3a67 
 gmake[1]: Leaving directory `/u/samar/Documents/git/cuda/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: /u/samar/Documents/git/cuda/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_66e7f/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_66e7f.dir/build.make CMakeFiles/cmTC_66e7f.dir/build
+Run Build Command:"/usr/bin/gmake" "cmTC_d1e34/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_d1e34.dir/build.make CMakeFiles/cmTC_d1e34.dir/build
 gmake[1]: Entering directory `/u/samar/Documents/git/cuda/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_66e7f.dir/CMakeCXXCompilerABI.cpp.o
-/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/bin/intel64/icpc     -o CMakeFiles/cmTC_66e7f.dir/CMakeCXXCompilerABI.cpp.o -c /v/apps/cmake/3.9.0/share/cmake-3.9/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_66e7f
-/v/apps/cmake/3.9.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_66e7f.dir/link.txt --verbose=1
-/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/bin/intel64/icpc      -v CMakeFiles/cmTC_66e7f.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_66e7f 
-icpc version 16.0.3 (gcc version 4.8.5 compatibility)
-/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/bin/intel64/mcpcom    -mGLOB_em64t=TRUE -mP1OPT_version=16.0-intel64 -mGLOB_diag_file=CMakeFiles/cmTC_66e7f.dir/CMakeCXXCompilerABI.cpp.diag -mP1OPT_print_version=FALSE -mCG_use_gas_got_workaround=F -mP2OPT_align_option_used=TRUE -mGLOB_gcc_version=485 "-mGLOB_options_string=-v -o cmTC_66e7f" -mGLOB_cxx_limited_range=FALSE -mCG_extend_parms=FALSE -mGLOB_compiler_bin_directory=/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/bin/intel64 -mGLOB_as_output_backup_file_name=/tmp/icpc0XrFlnas_.s -mGLOB_dashboard_use_source_name -mIPOPT_activate -mGLOB_product_id_code=0x22006d8e -mP3OPT_use_mspp_call_convention -mP2OPT_subs_out_of_bound=FALSE -mP2OPT_disam_type_based_disam=2 -mP2OPT_disam_assume_ansi_c -mP2OPT_checked_disam_ansi_alias=TRUE -mGLOB_ansi_alias -mPGOPTI_value_profile_use=T -mGLOB_opt_report_use_source_name -mP2OPT_il0_array_sections=TRUE -mGLOB_offload_mode=1 -mP2OPT_offload_unique_var_string=icpc0101855451304g5nXI -mP2OPT_hlo -mP2OPT_hpo_rtt_control=0 -mIPOPT_args_in_regs=0 -mP2OPT_disam_assume_nonstd_intent_in=FALSE -mGLOB_imf_mapping_library=/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/bin/intel64/libiml_attr.so -mPGOPTI_gen_threadsafe_level=0 -mIPOPT_link -mIPOPT_ipo_activate -mIPOPT_mo_activate -mIPOPT_source_files_list=/tmp/icpcslisENaicR -mIPOPT_mo_global_data -mIPOPT_link_script_file=/tmp/icpcscriptJpWWzm "-mIPOPT_cmdline_link="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o" "/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o" "/usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtbegin.o" "--eh-frame-hdr" "--build-id" "-dynamic-linker" "/lib64/ld-linux-x86-64.so.2" "-m" "elf_x86_64" "-o" "cmTC_66e7f" "-L/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/ipp/lib/intel64" "-L/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/compiler/lib/intel64" "-L/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/mkl/lib/intel64" "-L/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/tbb/lib/intel64/gcc4.4" "-L/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/daal/lib/intel64_lin" "-L/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/daal/../tbb/lib/intel64_lin/gcc4.4" "-L/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/daal/../compiler/lib/intel64_lin" "-L/u/samar/Documents/git/caffe2/install/lib" "-L/u/samar/Documents/git/caffe2/install/lib" "-L/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/compiler/lib/intel64_lin" "-L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/" "-L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64" "-L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/" "-L/lib/../lib64" "-L/lib/../lib64/" "-L/usr/lib/../lib64" "-L/usr/lib/../lib64/" "-L/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/ipp/lib/intel64/" "-L/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/compiler/lib/intel64/" "-L/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/mkl/lib/intel64/" "-L/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/tbb/lib/intel64/gcc4.4/" "-L/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/daal/lib/intel64_lin/" "-L/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/daal/../tbb/lib/intel64_lin/gcc4.4/" "-L/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/daal/../compiler/lib/intel64_lin/" "-L/u/samar/Documents/git/caffe2/install/lib/" "-L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../" "-L/lib64" "-L/lib/" "-L/usr/lib64" "-L/usr/lib" "CMakeFiles/cmTC_66e7f.dir/CMakeCXXCompilerABI.cpp.o" "-Bdynamic" "-Bstatic" "-limf" "-lsvml" "-lirng" "-Bdynamic" "-lstdc++" "-lm" "-Bstatic" "-lipgo" "-ldecimal" "--as-needed" "-Bdynamic" "-lcilkrts" "--no-as-needed" "-lstdc++" "-lgcc" "-lgcc_s" "-Bstatic" "-lirc" "-lsvml" "-Bdynamic" "-lc" "-lgcc" "-lgcc_s" "-Bstatic" "-lirc_s" "-Bdynamic" "-ldl" "-lc" "/usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtend.o" "/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crtn.o"" -mIPOPT_il_in_obj -mIPOPT_ipo_activate_warn=FALSE -mIPOPT_obj_output_file_name=/tmp/ipo_icpc2b1mUO.o -mIPOPT_whole_archive_fixup_file_name=/tmp/icpcwarch1v6bpr -mGLOB_linker_version=2.25.1 -mGLOB_long_size_64 -mGLOB_routine_pointer_size_64 -mGLOB_driver_tempfile_name=/tmp/icpctempfile54NuPW -mP3OPT_asm_target=P3OPT_ASM_TARGET_GAS -mGLOB_async_unwind_tables=TRUE -mGLOB_obj_output_file=/tmp/ipo_icpc2b1mUO.o -mGLOB_source_dialect=GLOB_SOURCE_DIALECT_NONE -mP1OPT_source_file_name=ipo_out.c CMakeFiles/cmTC_66e7f.dir/CMakeCXXCompilerABI.cpp.o -mIPOPT_object_files=T -mIPOPT_assembly_files=/tmp/icpcaliskDvFFP -mIPOPT_generated_tempfiles=/tmp/icpcelisUY4j3k -mIPOPT_embedded_object_base_name=/tmp/icpceobjyhxYqQ -mIPOPT_cmdline_link_new_name=/tmp/icpcllisQzqDOl
-ld    /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtbegin.o --eh-frame-hdr --build-id -dynamic-linker /lib64/ld-linux-x86-64.so.2 -m elf_x86_64 -o cmTC_66e7f -L/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/ipp/lib/intel64 -L/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/compiler/lib/intel64 -L/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/mkl/lib/intel64 -L/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/tbb/lib/intel64/gcc4.4 -L/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/daal/lib/intel64_lin -L/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/daal/../tbb/lib/intel64_lin/gcc4.4 -L/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/daal/../compiler/lib/intel64_lin -L/u/samar/Documents/git/caffe2/install/lib -L/u/samar/Documents/git/caffe2/install/lib -L/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/compiler/lib/intel64_lin -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/ -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/ -L/lib/../lib64 -L/lib/../lib64/ -L/usr/lib/../lib64 -L/usr/lib/../lib64/ -L/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/ipp/lib/intel64/ -L/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/compiler/lib/intel64/ -L/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/mkl/lib/intel64/ -L/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/tbb/lib/intel64/gcc4.4/ -L/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/daal/lib/intel64_lin/ -L/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/daal/../tbb/lib/intel64_lin/gcc4.4/ -L/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/daal/../compiler/lib/intel64_lin/ -L/u/samar/Documents/git/caffe2/install/lib/ -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../ -L/lib64 -L/lib/ -L/usr/lib64 -L/usr/lib CMakeFiles/cmTC_66e7f.dir/CMakeCXXCompilerABI.cpp.o -Bdynamic -Bstatic -limf -lsvml -lirng -Bdynamic -lstdc++ -lm -Bstatic -lipgo -ldecimal --as-needed -Bdynamic -lcilkrts --no-as-needed -lstdc++ -lgcc -lgcc_s -Bstatic -lirc -lsvml -Bdynamic -lc -lgcc -lgcc_s -Bstatic -lirc_s -Bdynamic -ldl -lc /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtend.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crtn.o
+Building CXX object CMakeFiles/cmTC_d1e34.dir/CMakeCXXCompilerABI.cpp.o
+/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/bin/intel64/icpc     -o CMakeFiles/cmTC_d1e34.dir/CMakeCXXCompilerABI.cpp.o -c /v/apps/cmake/3.9.0/share/cmake-3.9/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_d1e34
+/v/apps/cmake/3.9.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d1e34.dir/link.txt --verbose=1
+/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/bin/intel64/icpc      -v CMakeFiles/cmTC_d1e34.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_d1e34 
+icpc version 17.0.1 (gcc version 4.8.5 compatibility)
+/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/bin/intel64/mcpcom    -mGLOB_em64t=TRUE -mP1OPT_version=17.0-intel64 -mGLOB_diag_file=CMakeFiles/cmTC_d1e34.dir/CMakeCXXCompilerABI.cpp.diag -mGLOB_long_size_64 -mGLOB_routine_pointer_size_64 -mP1OPT_print_version=FALSE -mCG_use_gas_got_workaround=F -mP2OPT_align_option_used=TRUE -mGLOB_gcc_version=485 "-mGLOB_options_string=-v -o cmTC_d1e34" -mGLOB_cxx_limited_range=FALSE -mCG_extend_parms=FALSE -mGLOB_compiler_bin_directory=/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/bin/intel64 -mGLOB_as_output_backup_file_name=/tmp/icpcvxvbCWas_.s -mGLOB_dashboard_use_source_name -mIPOPT_activate -mGLOB_product_id_code=0x22006d8e -mP3OPT_use_mspp_call_convention -mP2OPT_subs_out_of_bound=FALSE -mP2OPT_disam_type_based_disam=2 -mP2OPT_disam_assume_ansi_c -mP2OPT_checked_disam_ansi_alias=TRUE -mGLOB_ansi_alias -mPGOPTI_value_profile_use=T -mGLOB_opt_report_use_source_name -mP2OPT_il0_array_sections=TRUE -mGLOB_offload_mode=1 -mP2OPT_offload_unique_var_string=icpc0198383077NF7ml9 -mP2OPT_hlo -mP2OPT_hpo_rtt_control=0 -mIPOPT_args_in_regs=0 -mP2OPT_disam_assume_nonstd_intent_in=FALSE -mGLOB_imf_mapping_library=/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/bin/intel64/libiml_attr.so -mPGOPTI_gen_threadsafe_level=0 -mIPOPT_link -mIPOPT_ipo_activate -mIPOPT_mo_activate -mIPOPT_source_files_list=/tmp/icpcslisZsUhB9 -mIPOPT_mo_global_data -mIPOPT_link_script_file=/tmp/icpcscriptRfz2Vp "-mIPOPT_cmdline_link="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o" "/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o" "/usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtbegin.o" "--eh-frame-hdr" "--build-id" "-dynamic-linker" "/lib64/ld-linux-x86-64.so.2" "-m" "elf_x86_64" "-o" "cmTC_d1e34" "-L/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/ipp/lib/intel64" "-L/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/compiler/lib/intel64_lin" "-L/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/mkl/lib/intel64_lin" "-L/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/tbb/lib/intel64/gcc4.4" "-L/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/daal/lib/intel64_lin" "-L/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/daal/../tbb/lib/intel64_lin/gcc4.4" "-L/u/samar/Documents/git/caffe2/install/lib" "-L/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/compiler/lib/intel64_lin" "-L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/" "-L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64" "-L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/" "-L/lib/../lib64" "-L/lib/../lib64/" "-L/usr/lib/../lib64" "-L/usr/lib/../lib64/" "-L/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/ipp/lib/intel64/" "-L/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/compiler/lib/intel64_lin/" "-L/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/mkl/lib/intel64_lin/" "-L/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/tbb/lib/intel64/gcc4.4/" "-L/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/daal/lib/intel64_lin/" "-L/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/daal/../tbb/lib/intel64_lin/gcc4.4/" "-L/u/samar/Documents/git/caffe2/install/lib/" "-L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../" "-L/lib64" "-L/lib/" "-L/usr/lib64" "-L/usr/lib" "CMakeFiles/cmTC_d1e34.dir/CMakeCXXCompilerABI.cpp.o" "-Bdynamic" "-Bstatic" "-limf" "-lsvml" "-lirng" "-Bdynamic" "-lstdc++" "-lm" "-Bstatic" "-lipgo" "-ldecimal" "--as-needed" "-Bdynamic" "-lcilkrts" "--no-as-needed" "-lstdc++" "-lgcc" "-lgcc_s" "-Bstatic" "-lirc" "-lsvml" "-Bdynamic" "-lc" "-lgcc" "-lgcc_s" "-Bstatic" "-lirc_s" "-Bdynamic" "-ldl" "-lc" "/usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtend.o" "/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crtn.o"" -mIPOPT_il_in_obj -mIPOPT_ipo_activate_warn=FALSE -mIPOPT_obj_output_file_name=/tmp/ipo_icpch0iRAz.o -mIPOPT_whole_archive_fixup_file_name=/tmp/icpcwarchNi3wFJ -mGLOB_linker_version=2.25.1 -mGLOB_driver_tempfile_name=/tmp/icpctempfilecvfO1Z -mP3OPT_asm_target=P3OPT_ASM_TARGET_GAS -mGLOB_async_unwind_tables=TRUE -mGLOB_obj_output_file=/tmp/ipo_icpch0iRAz.o -mGLOB_source_dialect=GLOB_SOURCE_DIALECT_NONE -mP1OPT_source_file_name=ipo_out.c CMakeFiles/cmTC_d1e34.dir/CMakeCXXCompilerABI.cpp.o -mIPOPT_object_files=T -mIPOPT_assembly_files=/tmp/icpcalisq0Fjg6 -mIPOPT_generated_tempfiles=/tmp/icpceliskei3Am -mIPOPT_embedded_object_base_name=/tmp/icpceobjHQaNVC -mIPOPT_cmdline_link_new_name=/tmp/icpcllisEhpxgT
+ld    /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtbegin.o --eh-frame-hdr --build-id -dynamic-linker /lib64/ld-linux-x86-64.so.2 -m elf_x86_64 -o cmTC_d1e34 -L/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/ipp/lib/intel64 -L/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/compiler/lib/intel64_lin -L/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/mkl/lib/intel64_lin -L/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/tbb/lib/intel64/gcc4.4 -L/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/daal/lib/intel64_lin -L/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/daal/../tbb/lib/intel64_lin/gcc4.4 -L/u/samar/Documents/git/caffe2/install/lib -L/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/compiler/lib/intel64_lin -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/ -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/ -L/lib/../lib64 -L/lib/../lib64/ -L/usr/lib/../lib64 -L/usr/lib/../lib64/ -L/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/ipp/lib/intel64/ -L/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/compiler/lib/intel64_lin/ -L/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/mkl/lib/intel64_lin/ -L/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/tbb/lib/intel64/gcc4.4/ -L/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/daal/lib/intel64_lin/ -L/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/daal/../tbb/lib/intel64_lin/gcc4.4/ -L/u/samar/Documents/git/caffe2/install/lib/ -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../ -L/lib64 -L/lib/ -L/usr/lib64 -L/usr/lib CMakeFiles/cmTC_d1e34.dir/CMakeCXXCompilerABI.cpp.o -Bdynamic -Bstatic -limf -lsvml -lirng -Bdynamic -lstdc++ -lm -Bstatic -lipgo -ldecimal --as-needed -Bdynamic -lcilkrts --no-as-needed -lstdc++ -lgcc -lgcc_s -Bstatic -lirc -lsvml -Bdynamic -lc -lgcc -lgcc_s -Bstatic -lirc_s -Bdynamic -ldl -lc /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtend.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crtn.o
 gmake[1]: Leaving directory `/u/samar/Documents/git/cuda/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
@@ -174,17 +174,17 @@ Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /u/samar/Documents/git/cuda/cmake-build-debug/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/gmake" "cmTC_66e7f/fast"]
-  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTC_66e7f.dir/build.make CMakeFiles/cmTC_66e7f.dir/build]
+  ignore line: [Run Build Command:"/usr/bin/gmake" "cmTC_d1e34/fast"]
+  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTC_d1e34.dir/build.make CMakeFiles/cmTC_d1e34.dir/build]
   ignore line: [gmake[1]: Entering directory `/u/samar/Documents/git/cuda/cmake-build-debug/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_66e7f.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/bin/intel64/icpc     -o CMakeFiles/cmTC_66e7f.dir/CMakeCXXCompilerABI.cpp.o -c /v/apps/cmake/3.9.0/share/cmake-3.9/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_66e7f]
-  ignore line: [/v/apps/cmake/3.9.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_66e7f.dir/link.txt --verbose=1]
-  ignore line: [/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/bin/intel64/icpc      -v CMakeFiles/cmTC_66e7f.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_66e7f ]
-  ignore line: [icpc version 16.0.3 (gcc version 4.8.5 compatibility)]
-  ignore line: [/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/bin/intel64/mcpcom    -mGLOB_em64t=TRUE -mP1OPT_version=16.0-intel64 -mGLOB_diag_file=CMakeFiles/cmTC_66e7f.dir/CMakeCXXCompilerABI.cpp.diag -mP1OPT_print_version=FALSE -mCG_use_gas_got_workaround=F -mP2OPT_align_option_used=TRUE -mGLOB_gcc_version=485 "-mGLOB_options_string=-v -o cmTC_66e7f" -mGLOB_cxx_limited_range=FALSE -mCG_extend_parms=FALSE -mGLOB_compiler_bin_directory=/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/bin/intel64 -mGLOB_as_output_backup_file_name=/tmp/icpc0XrFlnas_.s -mGLOB_dashboard_use_source_name -mIPOPT_activate -mGLOB_product_id_code=0x22006d8e -mP3OPT_use_mspp_call_convention -mP2OPT_subs_out_of_bound=FALSE -mP2OPT_disam_type_based_disam=2 -mP2OPT_disam_assume_ansi_c -mP2OPT_checked_disam_ansi_alias=TRUE -mGLOB_ansi_alias -mPGOPTI_value_profile_use=T -mGLOB_opt_report_use_source_name -mP2OPT_il0_array_sections=TRUE -mGLOB_offload_mode=1 -mP2OPT_offload_unique_var_string=icpc0101855451304g5nXI -mP2OPT_hlo -mP2OPT_hpo_rtt_control=0 -mIPOPT_args_in_regs=0 -mP2OPT_disam_assume_nonstd_intent_in=FALSE -mGLOB_imf_mapping_library=/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/bin/intel64/libiml_attr.so -mPGOPTI_gen_threadsafe_level=0 -mIPOPT_link -mIPOPT_ipo_activate -mIPOPT_mo_activate -mIPOPT_source_files_list=/tmp/icpcslisENaicR -mIPOPT_mo_global_data -mIPOPT_link_script_file=/tmp/icpcscriptJpWWzm "-mIPOPT_cmdline_link="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o" "/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o" "/usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtbegin.o" "--eh-frame-hdr" "--build-id" "-dynamic-linker" "/lib64/ld-linux-x86-64.so.2" "-m" "elf_x86_64" "-o" "cmTC_66e7f" "-L/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/ipp/lib/intel64" "-L/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/compiler/lib/intel64" "-L/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/mkl/lib/intel64" "-L/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/tbb/lib/intel64/gcc4.4" "-L/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/daal/lib/intel64_lin" "-L/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/daal/../tbb/lib/intel64_lin/gcc4.4" "-L/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/daal/../compiler/lib/intel64_lin" "-L/u/samar/Documents/git/caffe2/install/lib" "-L/u/samar/Documents/git/caffe2/install/lib" "-L/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/compiler/lib/intel64_lin" "-L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/" "-L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64" "-L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/" "-L/lib/../lib64" "-L/lib/../lib64/" "-L/usr/lib/../lib64" "-L/usr/lib/../lib64/" "-L/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/ipp/lib/intel64/" "-L/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/compiler/lib/intel64/" "-L/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/mkl/lib/intel64/" "-L/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/tbb/lib/intel64/gcc4.4/" "-L/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/daal/lib/intel64_lin/" "-L/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/daal/../tbb/lib/intel64_lin/gcc4.4/" "-L/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/daal/../compiler/lib/intel64_lin/" "-L/u/samar/Documents/git/caffe2/install/lib/" "-L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../" "-L/lib64" "-L/lib/" "-L/usr/lib64" "-L/usr/lib" "CMakeFiles/cmTC_66e7f.dir/CMakeCXXCompilerABI.cpp.o" "-Bdynamic" "-Bstatic" "-limf" "-lsvml" "-lirng" "-Bdynamic" "-lstdc++" "-lm" "-Bstatic" "-lipgo" "-ldecimal" "--as-needed" "-Bdynamic" "-lcilkrts" "--no-as-needed" "-lstdc++" "-lgcc" "-lgcc_s" "-Bstatic" "-lirc" "-lsvml" "-Bdynamic" "-lc" "-lgcc" "-lgcc_s" "-Bstatic" "-lirc_s" "-Bdynamic" "-ldl" "-lc" "/usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtend.o" "/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crtn.o"" -mIPOPT_il_in_obj -mIPOPT_ipo_activate_warn=FALSE -mIPOPT_obj_output_file_name=/tmp/ipo_icpc2b1mUO.o -mIPOPT_whole_archive_fixup_file_name=/tmp/icpcwarch1v6bpr -mGLOB_linker_version=2.25.1 -mGLOB_long_size_64 -mGLOB_routine_pointer_size_64 -mGLOB_driver_tempfile_name=/tmp/icpctempfile54NuPW -mP3OPT_asm_target=P3OPT_ASM_TARGET_GAS -mGLOB_async_unwind_tables=TRUE -mGLOB_obj_output_file=/tmp/ipo_icpc2b1mUO.o -mGLOB_source_dialect=GLOB_SOURCE_DIALECT_NONE -mP1OPT_source_file_name=ipo_out.c CMakeFiles/cmTC_66e7f.dir/CMakeCXXCompilerABI.cpp.o -mIPOPT_object_files=T -mIPOPT_assembly_files=/tmp/icpcaliskDvFFP -mIPOPT_generated_tempfiles=/tmp/icpcelisUY4j3k -mIPOPT_embedded_object_base_name=/tmp/icpceobjyhxYqQ -mIPOPT_cmdline_link_new_name=/tmp/icpcllisQzqDOl]
-  link line: [ld    /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtbegin.o --eh-frame-hdr --build-id -dynamic-linker /lib64/ld-linux-x86-64.so.2 -m elf_x86_64 -o cmTC_66e7f -L/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/ipp/lib/intel64 -L/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/compiler/lib/intel64 -L/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/mkl/lib/intel64 -L/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/tbb/lib/intel64/gcc4.4 -L/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/daal/lib/intel64_lin -L/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/daal/../tbb/lib/intel64_lin/gcc4.4 -L/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/daal/../compiler/lib/intel64_lin -L/u/samar/Documents/git/caffe2/install/lib -L/u/samar/Documents/git/caffe2/install/lib -L/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/compiler/lib/intel64_lin -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/ -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/ -L/lib/../lib64 -L/lib/../lib64/ -L/usr/lib/../lib64 -L/usr/lib/../lib64/ -L/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/ipp/lib/intel64/ -L/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/compiler/lib/intel64/ -L/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/mkl/lib/intel64/ -L/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/tbb/lib/intel64/gcc4.4/ -L/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/daal/lib/intel64_lin/ -L/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/daal/../tbb/lib/intel64_lin/gcc4.4/ -L/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/daal/../compiler/lib/intel64_lin/ -L/u/samar/Documents/git/caffe2/install/lib/ -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../ -L/lib64 -L/lib/ -L/usr/lib64 -L/usr/lib CMakeFiles/cmTC_66e7f.dir/CMakeCXXCompilerABI.cpp.o -Bdynamic -Bstatic -limf -lsvml -lirng -Bdynamic -lstdc++ -lm -Bstatic -lipgo -ldecimal --as-needed -Bdynamic -lcilkrts --no-as-needed -lstdc++ -lgcc -lgcc_s -Bstatic -lirc -lsvml -Bdynamic -lc -lgcc -lgcc_s -Bstatic -lirc_s -Bdynamic -ldl -lc /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtend.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crtn.o]
+  ignore line: [Building CXX object CMakeFiles/cmTC_d1e34.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/bin/intel64/icpc     -o CMakeFiles/cmTC_d1e34.dir/CMakeCXXCompilerABI.cpp.o -c /v/apps/cmake/3.9.0/share/cmake-3.9/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_d1e34]
+  ignore line: [/v/apps/cmake/3.9.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d1e34.dir/link.txt --verbose=1]
+  ignore line: [/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/bin/intel64/icpc      -v CMakeFiles/cmTC_d1e34.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_d1e34 ]
+  ignore line: [icpc version 17.0.1 (gcc version 4.8.5 compatibility)]
+  ignore line: [/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/bin/intel64/mcpcom    -mGLOB_em64t=TRUE -mP1OPT_version=17.0-intel64 -mGLOB_diag_file=CMakeFiles/cmTC_d1e34.dir/CMakeCXXCompilerABI.cpp.diag -mGLOB_long_size_64 -mGLOB_routine_pointer_size_64 -mP1OPT_print_version=FALSE -mCG_use_gas_got_workaround=F -mP2OPT_align_option_used=TRUE -mGLOB_gcc_version=485 "-mGLOB_options_string=-v -o cmTC_d1e34" -mGLOB_cxx_limited_range=FALSE -mCG_extend_parms=FALSE -mGLOB_compiler_bin_directory=/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/bin/intel64 -mGLOB_as_output_backup_file_name=/tmp/icpcvxvbCWas_.s -mGLOB_dashboard_use_source_name -mIPOPT_activate -mGLOB_product_id_code=0x22006d8e -mP3OPT_use_mspp_call_convention -mP2OPT_subs_out_of_bound=FALSE -mP2OPT_disam_type_based_disam=2 -mP2OPT_disam_assume_ansi_c -mP2OPT_checked_disam_ansi_alias=TRUE -mGLOB_ansi_alias -mPGOPTI_value_profile_use=T -mGLOB_opt_report_use_source_name -mP2OPT_il0_array_sections=TRUE -mGLOB_offload_mode=1 -mP2OPT_offload_unique_var_string=icpc0198383077NF7ml9 -mP2OPT_hlo -mP2OPT_hpo_rtt_control=0 -mIPOPT_args_in_regs=0 -mP2OPT_disam_assume_nonstd_intent_in=FALSE -mGLOB_imf_mapping_library=/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/bin/intel64/libiml_attr.so -mPGOPTI_gen_threadsafe_level=0 -mIPOPT_link -mIPOPT_ipo_activate -mIPOPT_mo_activate -mIPOPT_source_files_list=/tmp/icpcslisZsUhB9 -mIPOPT_mo_global_data -mIPOPT_link_script_file=/tmp/icpcscriptRfz2Vp "-mIPOPT_cmdline_link="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o" "/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o" "/usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtbegin.o" "--eh-frame-hdr" "--build-id" "-dynamic-linker" "/lib64/ld-linux-x86-64.so.2" "-m" "elf_x86_64" "-o" "cmTC_d1e34" "-L/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/ipp/lib/intel64" "-L/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/compiler/lib/intel64_lin" "-L/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/mkl/lib/intel64_lin" "-L/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/tbb/lib/intel64/gcc4.4" "-L/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/daal/lib/intel64_lin" "-L/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/daal/../tbb/lib/intel64_lin/gcc4.4" "-L/u/samar/Documents/git/caffe2/install/lib" "-L/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/compiler/lib/intel64_lin" "-L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/" "-L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64" "-L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/" "-L/lib/../lib64" "-L/lib/../lib64/" "-L/usr/lib/../lib64" "-L/usr/lib/../lib64/" "-L/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/ipp/lib/intel64/" "-L/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/compiler/lib/intel64_lin/" "-L/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/mkl/lib/intel64_lin/" "-L/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/tbb/lib/intel64/gcc4.4/" "-L/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/daal/lib/intel64_lin/" "-L/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/daal/../tbb/lib/intel64_lin/gcc4.4/" "-L/u/samar/Documents/git/caffe2/install/lib/" "-L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../" "-L/lib64" "-L/lib/" "-L/usr/lib64" "-L/usr/lib" "CMakeFiles/cmTC_d1e34.dir/CMakeCXXCompilerABI.cpp.o" "-Bdynamic" "-Bstatic" "-limf" "-lsvml" "-lirng" "-Bdynamic" "-lstdc++" "-lm" "-Bstatic" "-lipgo" "-ldecimal" "--as-needed" "-Bdynamic" "-lcilkrts" "--no-as-needed" "-lstdc++" "-lgcc" "-lgcc_s" "-Bstatic" "-lirc" "-lsvml" "-Bdynamic" "-lc" "-lgcc" "-lgcc_s" "-Bstatic" "-lirc_s" "-Bdynamic" "-ldl" "-lc" "/usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtend.o" "/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crtn.o"" -mIPOPT_il_in_obj -mIPOPT_ipo_activate_warn=FALSE -mIPOPT_obj_output_file_name=/tmp/ipo_icpch0iRAz.o -mIPOPT_whole_archive_fixup_file_name=/tmp/icpcwarchNi3wFJ -mGLOB_linker_version=2.25.1 -mGLOB_driver_tempfile_name=/tmp/icpctempfilecvfO1Z -mP3OPT_asm_target=P3OPT_ASM_TARGET_GAS -mGLOB_async_unwind_tables=TRUE -mGLOB_obj_output_file=/tmp/ipo_icpch0iRAz.o -mGLOB_source_dialect=GLOB_SOURCE_DIALECT_NONE -mP1OPT_source_file_name=ipo_out.c CMakeFiles/cmTC_d1e34.dir/CMakeCXXCompilerABI.cpp.o -mIPOPT_object_files=T -mIPOPT_assembly_files=/tmp/icpcalisq0Fjg6 -mIPOPT_generated_tempfiles=/tmp/icpceliskei3Am -mIPOPT_embedded_object_base_name=/tmp/icpceobjHQaNVC -mIPOPT_cmdline_link_new_name=/tmp/icpcllisEhpxgT]
+  link line: [ld    /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtbegin.o --eh-frame-hdr --build-id -dynamic-linker /lib64/ld-linux-x86-64.so.2 -m elf_x86_64 -o cmTC_d1e34 -L/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/ipp/lib/intel64 -L/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/compiler/lib/intel64_lin -L/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/mkl/lib/intel64_lin -L/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/tbb/lib/intel64/gcc4.4 -L/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/daal/lib/intel64_lin -L/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/daal/../tbb/lib/intel64_lin/gcc4.4 -L/u/samar/Documents/git/caffe2/install/lib -L/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/compiler/lib/intel64_lin -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/ -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/ -L/lib/../lib64 -L/lib/../lib64/ -L/usr/lib/../lib64 -L/usr/lib/../lib64/ -L/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/ipp/lib/intel64/ -L/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/compiler/lib/intel64_lin/ -L/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/mkl/lib/intel64_lin/ -L/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/tbb/lib/intel64/gcc4.4/ -L/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/daal/lib/intel64_lin/ -L/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/daal/../tbb/lib/intel64_lin/gcc4.4/ -L/u/samar/Documents/git/caffe2/install/lib/ -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../ -L/lib64 -L/lib/ -L/usr/lib64 -L/usr/lib CMakeFiles/cmTC_d1e34.dir/CMakeCXXCompilerABI.cpp.o -Bdynamic -Bstatic -limf -lsvml -lirng -Bdynamic -lstdc++ -lm -Bstatic -lipgo -ldecimal --as-needed -Bdynamic -lcilkrts --no-as-needed -lstdc++ -lgcc -lgcc_s -Bstatic -lirc -lsvml -Bdynamic -lc -lgcc -lgcc_s -Bstatic -lirc_s -Bdynamic -ldl -lc /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtend.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crtn.o]
     arg [ld] ==> ignore
     arg [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o] ==> ignore
@@ -196,17 +196,15 @@ Parsed CXX implicit link information from above output:
     arg [-m] ==> ignore
     arg [elf_x86_64] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_66e7f] ==> ignore
-    arg [-L/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/ipp/lib/intel64] ==> dir [/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/ipp/lib/intel64]
-    arg [-L/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/compiler/lib/intel64] ==> dir [/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/compiler/lib/intel64]
-    arg [-L/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/mkl/lib/intel64] ==> dir [/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/mkl/lib/intel64]
-    arg [-L/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/tbb/lib/intel64/gcc4.4] ==> dir [/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/tbb/lib/intel64/gcc4.4]
-    arg [-L/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/daal/lib/intel64_lin] ==> dir [/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/daal/lib/intel64_lin]
-    arg [-L/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/daal/../tbb/lib/intel64_lin/gcc4.4] ==> dir [/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/daal/../tbb/lib/intel64_lin/gcc4.4]
-    arg [-L/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/daal/../compiler/lib/intel64_lin] ==> dir [/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/daal/../compiler/lib/intel64_lin]
+    arg [cmTC_d1e34] ==> ignore
+    arg [-L/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/ipp/lib/intel64] ==> dir [/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/ipp/lib/intel64]
+    arg [-L/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/compiler/lib/intel64_lin] ==> dir [/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/compiler/lib/intel64_lin]
+    arg [-L/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/mkl/lib/intel64_lin] ==> dir [/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/mkl/lib/intel64_lin]
+    arg [-L/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/tbb/lib/intel64/gcc4.4] ==> dir [/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/tbb/lib/intel64/gcc4.4]
+    arg [-L/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/daal/lib/intel64_lin] ==> dir [/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/daal/lib/intel64_lin]
+    arg [-L/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/daal/../tbb/lib/intel64_lin/gcc4.4] ==> dir [/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/daal/../tbb/lib/intel64_lin/gcc4.4]
     arg [-L/u/samar/Documents/git/caffe2/install/lib] ==> dir [/u/samar/Documents/git/caffe2/install/lib]
-    arg [-L/u/samar/Documents/git/caffe2/install/lib] ==> dir [/u/samar/Documents/git/caffe2/install/lib]
-    arg [-L/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/compiler/lib/intel64_lin] ==> dir [/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/compiler/lib/intel64_lin]
+    arg [-L/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/compiler/lib/intel64_lin] ==> dir [/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/compiler/lib/intel64_lin]
     arg [-L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/]
     arg [-L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64]
     arg [-L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/]
@@ -214,20 +212,19 @@ Parsed CXX implicit link information from above output:
     arg [-L/lib/../lib64/] ==> dir [/lib/../lib64/]
     arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
     arg [-L/usr/lib/../lib64/] ==> dir [/usr/lib/../lib64/]
-    arg [-L/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/ipp/lib/intel64/] ==> dir [/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/ipp/lib/intel64/]
-    arg [-L/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/compiler/lib/intel64/] ==> dir [/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/compiler/lib/intel64/]
-    arg [-L/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/mkl/lib/intel64/] ==> dir [/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/mkl/lib/intel64/]
-    arg [-L/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/tbb/lib/intel64/gcc4.4/] ==> dir [/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/tbb/lib/intel64/gcc4.4/]
-    arg [-L/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/daal/lib/intel64_lin/] ==> dir [/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/daal/lib/intel64_lin/]
-    arg [-L/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/daal/../tbb/lib/intel64_lin/gcc4.4/] ==> dir [/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/daal/../tbb/lib/intel64_lin/gcc4.4/]
-    arg [-L/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/daal/../compiler/lib/intel64_lin/] ==> dir [/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/daal/../compiler/lib/intel64_lin/]
+    arg [-L/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/ipp/lib/intel64/] ==> dir [/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/ipp/lib/intel64/]
+    arg [-L/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/compiler/lib/intel64_lin/] ==> dir [/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/compiler/lib/intel64_lin/]
+    arg [-L/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/mkl/lib/intel64_lin/] ==> dir [/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/mkl/lib/intel64_lin/]
+    arg [-L/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/tbb/lib/intel64/gcc4.4/] ==> dir [/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/tbb/lib/intel64/gcc4.4/]
+    arg [-L/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/daal/lib/intel64_lin/] ==> dir [/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/daal/lib/intel64_lin/]
+    arg [-L/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/daal/../tbb/lib/intel64_lin/gcc4.4/] ==> dir [/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/daal/../tbb/lib/intel64_lin/gcc4.4/]
     arg [-L/u/samar/Documents/git/caffe2/install/lib/] ==> dir [/u/samar/Documents/git/caffe2/install/lib/]
     arg [-L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../]
     arg [-L/lib64] ==> dir [/lib64]
     arg [-L/lib/] ==> dir [/lib/]
     arg [-L/usr/lib64] ==> dir [/usr/lib64]
     arg [-L/usr/lib] ==> dir [/usr/lib]
-    arg [CMakeFiles/cmTC_66e7f.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_d1e34.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-Bdynamic] ==> ignore
     arg [-Bstatic] ==> ignore
     arg [-limf] ==> lib [imf]
@@ -260,16 +257,14 @@ Parsed CXX implicit link information from above output:
     arg [-lc] ==> lib [c]
     arg [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtend.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crtn.o] ==> ignore
-  collapse library dir [/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/ipp/lib/intel64] ==> [/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/ipp/lib/intel64]
-  collapse library dir [/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/compiler/lib/intel64] ==> [/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/compiler/lib/intel64]
-  collapse library dir [/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/mkl/lib/intel64] ==> [/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/mkl/lib/intel64]
-  collapse library dir [/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/tbb/lib/intel64/gcc4.4] ==> [/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/tbb/lib/intel64/gcc4.4]
-  collapse library dir [/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/daal/lib/intel64_lin] ==> [/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/daal/lib/intel64_lin]
-  collapse library dir [/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/daal/../tbb/lib/intel64_lin/gcc4.4] ==> [/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/tbb/lib/intel64_lin/gcc4.4]
-  collapse library dir [/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/daal/../compiler/lib/intel64_lin] ==> [/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/compiler/lib/intel64_lin]
+  collapse library dir [/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/ipp/lib/intel64] ==> [/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/ipp/lib/intel64]
+  collapse library dir [/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/compiler/lib/intel64_lin] ==> [/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/compiler/lib/intel64_lin]
+  collapse library dir [/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/mkl/lib/intel64_lin] ==> [/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/mkl/lib/intel64_lin]
+  collapse library dir [/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/tbb/lib/intel64/gcc4.4] ==> [/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/tbb/lib/intel64/gcc4.4]
+  collapse library dir [/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/daal/lib/intel64_lin] ==> [/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/daal/lib/intel64_lin]
+  collapse library dir [/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/daal/../tbb/lib/intel64_lin/gcc4.4] ==> [/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/tbb/lib/intel64_lin/gcc4.4]
   collapse library dir [/u/samar/Documents/git/caffe2/install/lib] ==> [/u/samar/Documents/git/caffe2/install/lib]
-  collapse library dir [/u/samar/Documents/git/caffe2/install/lib] ==> [/u/samar/Documents/git/caffe2/install/lib]
-  collapse library dir [/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/compiler/lib/intel64_lin] ==> [/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/compiler/lib/intel64_lin]
+  collapse library dir [/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/compiler/lib/intel64_lin] ==> [/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/compiler/lib/intel64_lin]
   collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/] ==> [/usr/lib/gcc/x86_64-redhat-linux/4.8.5]
   collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64] ==> [/usr/lib64]
   collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/] ==> [/usr/lib64]
@@ -277,13 +272,12 @@ Parsed CXX implicit link information from above output:
   collapse library dir [/lib/../lib64/] ==> [/lib64]
   collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
   collapse library dir [/usr/lib/../lib64/] ==> [/usr/lib64]
-  collapse library dir [/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/ipp/lib/intel64/] ==> [/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/ipp/lib/intel64]
-  collapse library dir [/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/compiler/lib/intel64/] ==> [/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/compiler/lib/intel64]
-  collapse library dir [/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/mkl/lib/intel64/] ==> [/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/mkl/lib/intel64]
-  collapse library dir [/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/tbb/lib/intel64/gcc4.4/] ==> [/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/tbb/lib/intel64/gcc4.4]
-  collapse library dir [/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/daal/lib/intel64_lin/] ==> [/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/daal/lib/intel64_lin]
-  collapse library dir [/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/daal/../tbb/lib/intel64_lin/gcc4.4/] ==> [/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/tbb/lib/intel64_lin/gcc4.4]
-  collapse library dir [/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/daal/../compiler/lib/intel64_lin/] ==> [/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/compiler/lib/intel64_lin]
+  collapse library dir [/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/ipp/lib/intel64/] ==> [/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/ipp/lib/intel64]
+  collapse library dir [/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/compiler/lib/intel64_lin/] ==> [/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/compiler/lib/intel64_lin]
+  collapse library dir [/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/mkl/lib/intel64_lin/] ==> [/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/mkl/lib/intel64_lin]
+  collapse library dir [/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/tbb/lib/intel64/gcc4.4/] ==> [/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/tbb/lib/intel64/gcc4.4]
+  collapse library dir [/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/daal/lib/intel64_lin/] ==> [/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/daal/lib/intel64_lin]
+  collapse library dir [/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/daal/../tbb/lib/intel64_lin/gcc4.4/] ==> [/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/tbb/lib/intel64_lin/gcc4.4]
   collapse library dir [/u/samar/Documents/git/caffe2/install/lib/] ==> [/u/samar/Documents/git/caffe2/install/lib]
   collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../] ==> [/usr/lib]
   collapse library dir [/lib64] ==> [/lib64]
@@ -291,7 +285,7 @@ Parsed CXX implicit link information from above output:
   collapse library dir [/usr/lib64] ==> [/usr/lib64]
   collapse library dir [/usr/lib] ==> [/usr/lib]
   implicit libs: [imf;svml;irng;stdc++;m;ipgo;decimal;cilkrts;stdc++;gcc;gcc_s;irc;svml;c;gcc;gcc_s;irc_s;dl;c]
-  implicit dirs: [/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/ipp/lib/intel64;/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/compiler/lib/intel64;/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/mkl/lib/intel64;/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/tbb/lib/intel64/gcc4.4;/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/daal/lib/intel64_lin;/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/tbb/lib/intel64_lin/gcc4.4;/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/compiler/lib/intel64_lin;/u/samar/Documents/git/caffe2/install/lib;/usr/lib/gcc/x86_64-redhat-linux/4.8.5;/usr/lib64;/lib64;/usr/lib;/lib]
+  implicit dirs: [/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/ipp/lib/intel64;/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/compiler/lib/intel64_lin;/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/mkl/lib/intel64_lin;/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/tbb/lib/intel64/gcc4.4;/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/daal/lib/intel64_lin;/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/tbb/lib/intel64_lin/gcc4.4;/u/samar/Documents/git/caffe2/install/lib;/usr/lib/gcc/x86_64-redhat-linux/4.8.5;/usr/lib64;/lib64;/usr/lib;/lib]
   implicit fwks: []
 
 
@@ -300,14 +294,14 @@ Parsed CXX implicit link information from above output:
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
 Change Dir: /u/samar/Documents/git/cuda/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_04513/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_04513.dir/build.make CMakeFiles/cmTC_04513.dir/build
+Run Build Command:"/usr/bin/gmake" "cmTC_88dca/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_88dca.dir/build.make CMakeFiles/cmTC_88dca.dir/build
 gmake[1]: Entering directory `/u/samar/Documents/git/cuda/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_04513.dir/feature_tests.cxx.o
-/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/bin/intel64/icpc    -std=c++14 -o CMakeFiles/cmTC_04513.dir/feature_tests.cxx.o -c /u/samar/Documents/git/cuda/cmake-build-debug/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_04513
-/v/apps/cmake/3.9.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_04513.dir/link.txt --verbose=1
-/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/bin/intel64/icpc       CMakeFiles/cmTC_04513.dir/feature_tests.cxx.o  -o cmTC_04513 
+Building CXX object CMakeFiles/cmTC_88dca.dir/feature_tests.cxx.o
+/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/bin/intel64/icpc    -std=c++14 -o CMakeFiles/cmTC_88dca.dir/feature_tests.cxx.o -c /u/samar/Documents/git/cuda/cmake-build-debug/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_88dca
+/v/apps/cmake/3.9.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_88dca.dir/link.txt --verbose=1
+/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/bin/intel64/icpc       CMakeFiles/cmTC_88dca.dir/feature_tests.cxx.o  -o cmTC_88dca 
 gmake[1]: Leaving directory `/u/samar/Documents/git/cuda/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
@@ -350,7 +344,7 @@ gmake[1]: Leaving directory `/u/samar/Documents/git/cuda/cmake-build-debug/CMake
     Feature record: CXX_FEATURE:1cxx_range_for
     Feature record: CXX_FEATURE:1cxx_raw_string_literals
     Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
-    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
     Feature record: CXX_FEATURE:1cxx_return_type_deduction
     Feature record: CXX_FEATURE:1cxx_right_angle_brackets
     Feature record: CXX_FEATURE:1cxx_rvalue_references
@@ -364,7 +358,7 @@ gmake[1]: Leaving directory `/u/samar/Documents/git/cuda/cmake-build-debug/CMake
     Feature record: CXX_FEATURE:1cxx_uniform_initialization
     Feature record: CXX_FEATURE:1cxx_unrestricted_unions
     Feature record: CXX_FEATURE:1cxx_user_literals
-    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variable_templates
     Feature record: CXX_FEATURE:1cxx_variadic_macros
     Feature record: CXX_FEATURE:1cxx_variadic_templates
 
@@ -372,14 +366,14 @@ gmake[1]: Leaving directory `/u/samar/Documents/git/cuda/cmake-build-debug/CMake
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
 Change Dir: /u/samar/Documents/git/cuda/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_53693/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_53693.dir/build.make CMakeFiles/cmTC_53693.dir/build
+Run Build Command:"/usr/bin/gmake" "cmTC_462f5/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_462f5.dir/build.make CMakeFiles/cmTC_462f5.dir/build
 gmake[1]: Entering directory `/u/samar/Documents/git/cuda/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_53693.dir/feature_tests.cxx.o
-/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/bin/intel64/icpc    -std=c++11 -o CMakeFiles/cmTC_53693.dir/feature_tests.cxx.o -c /u/samar/Documents/git/cuda/cmake-build-debug/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_53693
-/v/apps/cmake/3.9.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_53693.dir/link.txt --verbose=1
-/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/bin/intel64/icpc       CMakeFiles/cmTC_53693.dir/feature_tests.cxx.o  -o cmTC_53693 
+Building CXX object CMakeFiles/cmTC_462f5.dir/feature_tests.cxx.o
+/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/bin/intel64/icpc    -std=c++11 -o CMakeFiles/cmTC_462f5.dir/feature_tests.cxx.o -c /u/samar/Documents/git/cuda/cmake-build-debug/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_462f5
+/v/apps/cmake/3.9.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_462f5.dir/link.txt --verbose=1
+/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/bin/intel64/icpc       CMakeFiles/cmTC_462f5.dir/feature_tests.cxx.o  -o cmTC_462f5 
 gmake[1]: Leaving directory `/u/samar/Documents/git/cuda/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
@@ -444,14 +438,14 @@ gmake[1]: Leaving directory `/u/samar/Documents/git/cuda/cmake-build-debug/CMake
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
 Change Dir: /u/samar/Documents/git/cuda/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_183ad/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_183ad.dir/build.make CMakeFiles/cmTC_183ad.dir/build
+Run Build Command:"/usr/bin/gmake" "cmTC_e64a8/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_e64a8.dir/build.make CMakeFiles/cmTC_e64a8.dir/build
 gmake[1]: Entering directory `/u/samar/Documents/git/cuda/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_183ad.dir/feature_tests.cxx.o
-/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/bin/intel64/icpc    -std=c++98 -o CMakeFiles/cmTC_183ad.dir/feature_tests.cxx.o -c /u/samar/Documents/git/cuda/cmake-build-debug/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_183ad
-/v/apps/cmake/3.9.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_183ad.dir/link.txt --verbose=1
-/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/bin/intel64/icpc       CMakeFiles/cmTC_183ad.dir/feature_tests.cxx.o  -o cmTC_183ad 
+Building CXX object CMakeFiles/cmTC_e64a8.dir/feature_tests.cxx.o
+/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/bin/intel64/icpc    -std=c++98 -o CMakeFiles/cmTC_e64a8.dir/feature_tests.cxx.o -c /u/samar/Documents/git/cuda/cmake-build-debug/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_e64a8
+/v/apps/cmake/3.9.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e64a8.dir/link.txt --verbose=1
+/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/bin/intel64/icpc       CMakeFiles/cmTC_e64a8.dir/feature_tests.cxx.o  -o cmTC_e64a8 
 gmake[1]: Leaving directory `/u/samar/Documents/git/cuda/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
@@ -514,34 +508,34 @@ gmake[1]: Leaving directory `/u/samar/Documents/git/cuda/cmake-build-debug/CMake
 Determining if the CUDA compiler works passed with the following output:
 Change Dir: /u/samar/Documents/git/cuda/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_f8139/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_f8139.dir/build.make CMakeFiles/cmTC_f8139.dir/build
+Run Build Command:"/usr/bin/gmake" "cmTC_e4810/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_e4810.dir/build.make CMakeFiles/cmTC_e4810.dir/build
 gmake[1]: Entering directory `/u/samar/Documents/git/cuda/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CUDA object CMakeFiles/cmTC_f8139.dir/main.cu.o
-/v/apps/cuda/9.2.148/bin/nvcc     -x cu -c /u/samar/Documents/git/cuda/cmake-build-debug/CMakeFiles/CMakeTmp/main.cu -o CMakeFiles/cmTC_f8139.dir/main.cu.o
-Linking CUDA device code CMakeFiles/cmTC_f8139.dir/cmake_device_link.o
-/v/apps/cmake/3.9.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f8139.dir/dlink.txt --verbose=1
-/v/apps/cuda/9.2.148/bin/nvcc    -Xcompiler=-fPIC -Wno-deprecated-gpu-targets -shared -dlink CMakeFiles/cmTC_f8139.dir/main.cu.o -o CMakeFiles/cmTC_f8139.dir/cmake_device_link.o 
-Linking CUDA executable cmTC_f8139
-/v/apps/cmake/3.9.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f8139.dir/link.txt --verbose=1
-g++    CMakeFiles/cmTC_f8139.dir/main.cu.o CMakeFiles/cmTC_f8139.dir/cmake_device_link.o -o cmTC_f8139  -L"/v/apps/cuda/9.2.148/lib64/stubs" -L"/v/apps/cuda/9.2.148/lib64" -lcudadevrt -lcudart_static -lrt -lpthread -ldl
+Building CUDA object CMakeFiles/cmTC_e4810.dir/main.cu.o
+/v/apps/cuda/9.2.148/bin/nvcc     -x cu -c /u/samar/Documents/git/cuda/cmake-build-debug/CMakeFiles/CMakeTmp/main.cu -o CMakeFiles/cmTC_e4810.dir/main.cu.o
+Linking CUDA device code CMakeFiles/cmTC_e4810.dir/cmake_device_link.o
+/v/apps/cmake/3.9.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e4810.dir/dlink.txt --verbose=1
+/v/apps/cuda/9.2.148/bin/nvcc    -Xcompiler=-fPIC -Wno-deprecated-gpu-targets -shared -dlink CMakeFiles/cmTC_e4810.dir/main.cu.o -o CMakeFiles/cmTC_e4810.dir/cmake_device_link.o 
+Linking CUDA executable cmTC_e4810
+/v/apps/cmake/3.9.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e4810.dir/link.txt --verbose=1
+g++    CMakeFiles/cmTC_e4810.dir/main.cu.o CMakeFiles/cmTC_e4810.dir/cmake_device_link.o -o cmTC_e4810  -L"/v/apps/cuda/9.2.148/lib64/stubs" -L"/v/apps/cuda/9.2.148/lib64" -lcudadevrt -lcudart_static -lrt -lpthread -ldl
 gmake[1]: Leaving directory `/u/samar/Documents/git/cuda/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Detecting CUDA compiler ABI info compiled with the following output:
 Change Dir: /u/samar/Documents/git/cuda/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_c9d16/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_c9d16.dir/build.make CMakeFiles/cmTC_c9d16.dir/build
+Run Build Command:"/usr/bin/gmake" "cmTC_98deb/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_98deb.dir/build.make CMakeFiles/cmTC_98deb.dir/build
 gmake[1]: Entering directory `/u/samar/Documents/git/cuda/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CUDA object CMakeFiles/cmTC_c9d16.dir/CMakeCUDACompilerABI.cu.o
-/v/apps/cuda/9.2.148/bin/nvcc     -x cu -c /v/apps/cmake/3.9.0/share/cmake-3.9/Modules/CMakeCUDACompilerABI.cu -o CMakeFiles/cmTC_c9d16.dir/CMakeCUDACompilerABI.cu.o
-Linking CUDA device code CMakeFiles/cmTC_c9d16.dir/cmake_device_link.o
-/v/apps/cmake/3.9.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c9d16.dir/dlink.txt --verbose=1
-/v/apps/cuda/9.2.148/bin/nvcc    -Xcompiler=-fPIC -Wno-deprecated-gpu-targets -shared -dlink CMakeFiles/cmTC_c9d16.dir/CMakeCUDACompilerABI.cu.o -o CMakeFiles/cmTC_c9d16.dir/cmake_device_link.o 
-Linking CUDA executable cmTC_c9d16
-/v/apps/cmake/3.9.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c9d16.dir/link.txt --verbose=1
-g++   -v CMakeFiles/cmTC_c9d16.dir/CMakeCUDACompilerABI.cu.o CMakeFiles/cmTC_c9d16.dir/cmake_device_link.o -o cmTC_c9d16  -L"/v/apps/cuda/9.2.148/lib64/stubs" -L"/v/apps/cuda/9.2.148/lib64" -lcudadevrt -lcudart_static -lrt -lpthread -ldl
+Building CUDA object CMakeFiles/cmTC_98deb.dir/CMakeCUDACompilerABI.cu.o
+/v/apps/cuda/9.2.148/bin/nvcc     -x cu -c /v/apps/cmake/3.9.0/share/cmake-3.9/Modules/CMakeCUDACompilerABI.cu -o CMakeFiles/cmTC_98deb.dir/CMakeCUDACompilerABI.cu.o
+Linking CUDA device code CMakeFiles/cmTC_98deb.dir/cmake_device_link.o
+/v/apps/cmake/3.9.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_98deb.dir/dlink.txt --verbose=1
+/v/apps/cuda/9.2.148/bin/nvcc    -Xcompiler=-fPIC -Wno-deprecated-gpu-targets -shared -dlink CMakeFiles/cmTC_98deb.dir/CMakeCUDACompilerABI.cu.o -o CMakeFiles/cmTC_98deb.dir/cmake_device_link.o 
+Linking CUDA executable cmTC_98deb
+/v/apps/cmake/3.9.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_98deb.dir/link.txt --verbose=1
+g++   -v CMakeFiles/cmTC_98deb.dir/CMakeCUDACompilerABI.cu.o CMakeFiles/cmTC_98deb.dir/cmake_device_link.o -o cmTC_98deb  -L"/v/apps/cuda/9.2.148/lib64/stubs" -L"/v/apps/cuda/9.2.148/lib64" -lcudadevrt -lcudart_static -lrt -lpthread -ldl
 Using built-in specs.
 COLLECT_GCC=g++
 COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/lto-wrapper
@@ -550,9 +544,9 @@ Configured with: ../configure --prefix=/usr --mandir=/usr/share/man --infodir=/u
 Thread model: posix
 gcc version 4.8.5 20150623 (Red Hat 4.8.5-11) (GCC) 
 COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/
-LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/ipp/lib/intel64/:/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/compiler/lib/intel64/:/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/mkl/lib/intel64/:/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/tbb/lib/intel64/gcc4.4/:/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/daal/lib/intel64_lin/:/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/daal/../tbb/lib/intel64_lin/gcc4.4/:/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/daal/../compiler/lib/intel64_lin/:/u/samar/Documents/git/caffe2/install/lib/:/u/samar/Documents/git/caffe2/install/lib/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_c9d16' '-L/v/apps/cuda/9.2.148/lib64/stubs' '-L/v/apps/cuda/9.2.148/lib64' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/libexec/gcc/x86_64-redhat-linux/4.8.5/collect2 --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_c9d16 /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtbegin.o -L/v/apps/cuda/9.2.148/lib64/stubs -L/v/apps/cuda/9.2.148/lib64 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/ipp/lib/intel64 -L/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/compiler/lib/intel64 -L/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/mkl/lib/intel64 -L/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/tbb/lib/intel64/gcc4.4 -L/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/daal/lib/intel64_lin -L/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/daal/../tbb/lib/intel64_lin/gcc4.4 -L/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/daal/../compiler/lib/intel64_lin -L/u/samar/Documents/git/caffe2/install/lib -L/u/samar/Documents/git/caffe2/install/lib -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../.. CMakeFiles/cmTC_c9d16.dir/CMakeCUDACompilerABI.cu.o CMakeFiles/cmTC_c9d16.dir/cmake_device_link.o -lcudadevrt -lcudart_static -lrt -lpthread -ldl -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtend.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crtn.o
+LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/ipp/lib/intel64/:/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/compiler/lib/intel64_lin/:/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/mkl/lib/intel64_lin/:/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/tbb/lib/intel64/gcc4.4/:/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/daal/lib/intel64_lin/:/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/daal/../tbb/lib/intel64_lin/gcc4.4/:/u/samar/Documents/git/caffe2/install/lib/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_98deb' '-L/v/apps/cuda/9.2.148/lib64/stubs' '-L/v/apps/cuda/9.2.148/lib64' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/libexec/gcc/x86_64-redhat-linux/4.8.5/collect2 --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_98deb /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtbegin.o -L/v/apps/cuda/9.2.148/lib64/stubs -L/v/apps/cuda/9.2.148/lib64 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/ipp/lib/intel64 -L/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/compiler/lib/intel64_lin -L/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/mkl/lib/intel64_lin -L/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/tbb/lib/intel64/gcc4.4 -L/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/daal/lib/intel64_lin -L/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/daal/../tbb/lib/intel64_lin/gcc4.4 -L/u/samar/Documents/git/caffe2/install/lib -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../.. CMakeFiles/cmTC_98deb.dir/CMakeCUDACompilerABI.cu.o CMakeFiles/cmTC_98deb.dir/cmake_device_link.o -lcudadevrt -lcudart_static -lrt -lpthread -ldl -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtend.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crtn.o
 gmake[1]: Leaving directory `/u/samar/Documents/git/cuda/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
@@ -560,17 +554,17 @@ Parsed CUDA implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /u/samar/Documents/git/cuda/cmake-build-debug/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/gmake" "cmTC_c9d16/fast"]
-  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTC_c9d16.dir/build.make CMakeFiles/cmTC_c9d16.dir/build]
+  ignore line: [Run Build Command:"/usr/bin/gmake" "cmTC_98deb/fast"]
+  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTC_98deb.dir/build.make CMakeFiles/cmTC_98deb.dir/build]
   ignore line: [gmake[1]: Entering directory `/u/samar/Documents/git/cuda/cmake-build-debug/CMakeFiles/CMakeTmp']
-  ignore line: [Building CUDA object CMakeFiles/cmTC_c9d16.dir/CMakeCUDACompilerABI.cu.o]
-  ignore line: [/v/apps/cuda/9.2.148/bin/nvcc     -x cu -c /v/apps/cmake/3.9.0/share/cmake-3.9/Modules/CMakeCUDACompilerABI.cu -o CMakeFiles/cmTC_c9d16.dir/CMakeCUDACompilerABI.cu.o]
-  ignore line: [Linking CUDA device code CMakeFiles/cmTC_c9d16.dir/cmake_device_link.o]
-  ignore line: [/v/apps/cmake/3.9.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c9d16.dir/dlink.txt --verbose=1]
-  ignore line: [/v/apps/cuda/9.2.148/bin/nvcc    -Xcompiler=-fPIC -Wno-deprecated-gpu-targets -shared -dlink CMakeFiles/cmTC_c9d16.dir/CMakeCUDACompilerABI.cu.o -o CMakeFiles/cmTC_c9d16.dir/cmake_device_link.o ]
-  ignore line: [Linking CUDA executable cmTC_c9d16]
-  ignore line: [/v/apps/cmake/3.9.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c9d16.dir/link.txt --verbose=1]
-  ignore line: [g++   -v CMakeFiles/cmTC_c9d16.dir/CMakeCUDACompilerABI.cu.o CMakeFiles/cmTC_c9d16.dir/cmake_device_link.o -o cmTC_c9d16  -L"/v/apps/cuda/9.2.148/lib64/stubs" -L"/v/apps/cuda/9.2.148/lib64" -lcudadevrt -lcudart_static -lrt -lpthread -ldl]
+  ignore line: [Building CUDA object CMakeFiles/cmTC_98deb.dir/CMakeCUDACompilerABI.cu.o]
+  ignore line: [/v/apps/cuda/9.2.148/bin/nvcc     -x cu -c /v/apps/cmake/3.9.0/share/cmake-3.9/Modules/CMakeCUDACompilerABI.cu -o CMakeFiles/cmTC_98deb.dir/CMakeCUDACompilerABI.cu.o]
+  ignore line: [Linking CUDA device code CMakeFiles/cmTC_98deb.dir/cmake_device_link.o]
+  ignore line: [/v/apps/cmake/3.9.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_98deb.dir/dlink.txt --verbose=1]
+  ignore line: [/v/apps/cuda/9.2.148/bin/nvcc    -Xcompiler=-fPIC -Wno-deprecated-gpu-targets -shared -dlink CMakeFiles/cmTC_98deb.dir/CMakeCUDACompilerABI.cu.o -o CMakeFiles/cmTC_98deb.dir/cmake_device_link.o ]
+  ignore line: [Linking CUDA executable cmTC_98deb]
+  ignore line: [/v/apps/cmake/3.9.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_98deb.dir/link.txt --verbose=1]
+  ignore line: [g++   -v CMakeFiles/cmTC_98deb.dir/CMakeCUDACompilerABI.cu.o CMakeFiles/cmTC_98deb.dir/cmake_device_link.o -o cmTC_98deb  -L"/v/apps/cuda/9.2.148/lib64/stubs" -L"/v/apps/cuda/9.2.148/lib64" -lcudadevrt -lcudart_static -lrt -lpthread -ldl]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=g++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/lto-wrapper]
@@ -579,9 +573,9 @@ Parsed CUDA implicit link information from above output:
   ignore line: [Thread model: posix]
   ignore line: [gcc version 4.8.5 20150623 (Red Hat 4.8.5-11) (GCC) ]
   ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/]
-  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/ipp/lib/intel64/:/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/compiler/lib/intel64/:/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/mkl/lib/intel64/:/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/tbb/lib/intel64/gcc4.4/:/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/daal/lib/intel64_lin/:/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/daal/../tbb/lib/intel64_lin/gcc4.4/:/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/daal/../compiler/lib/intel64_lin/:/u/samar/Documents/git/caffe2/install/lib/:/u/samar/Documents/git/caffe2/install/lib/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_c9d16' '-L/v/apps/cuda/9.2.148/lib64/stubs' '-L/v/apps/cuda/9.2.148/lib64' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/libexec/gcc/x86_64-redhat-linux/4.8.5/collect2 --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_c9d16 /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtbegin.o -L/v/apps/cuda/9.2.148/lib64/stubs -L/v/apps/cuda/9.2.148/lib64 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/ipp/lib/intel64 -L/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/compiler/lib/intel64 -L/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/mkl/lib/intel64 -L/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/tbb/lib/intel64/gcc4.4 -L/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/daal/lib/intel64_lin -L/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/daal/../tbb/lib/intel64_lin/gcc4.4 -L/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/daal/../compiler/lib/intel64_lin -L/u/samar/Documents/git/caffe2/install/lib -L/u/samar/Documents/git/caffe2/install/lib -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../.. CMakeFiles/cmTC_c9d16.dir/CMakeCUDACompilerABI.cu.o CMakeFiles/cmTC_c9d16.dir/cmake_device_link.o -lcudadevrt -lcudart_static -lrt -lpthread -ldl -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtend.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crtn.o]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/ipp/lib/intel64/:/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/compiler/lib/intel64_lin/:/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/mkl/lib/intel64_lin/:/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/tbb/lib/intel64/gcc4.4/:/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/daal/lib/intel64_lin/:/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/daal/../tbb/lib/intel64_lin/gcc4.4/:/u/samar/Documents/git/caffe2/install/lib/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_98deb' '-L/v/apps/cuda/9.2.148/lib64/stubs' '-L/v/apps/cuda/9.2.148/lib64' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/libexec/gcc/x86_64-redhat-linux/4.8.5/collect2 --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_98deb /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtbegin.o -L/v/apps/cuda/9.2.148/lib64/stubs -L/v/apps/cuda/9.2.148/lib64 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/ipp/lib/intel64 -L/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/compiler/lib/intel64_lin -L/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/mkl/lib/intel64_lin -L/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/tbb/lib/intel64/gcc4.4 -L/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/daal/lib/intel64_lin -L/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/daal/../tbb/lib/intel64_lin/gcc4.4 -L/u/samar/Documents/git/caffe2/install/lib -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../.. CMakeFiles/cmTC_98deb.dir/CMakeCUDACompilerABI.cu.o CMakeFiles/cmTC_98deb.dir/cmake_device_link.o -lcudadevrt -lcudart_static -lrt -lpthread -ldl -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtend.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crtn.o]
     arg [/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/collect2] ==> ignore
     arg [--build-id] ==> ignore
     arg [--no-add-needed] ==> ignore
@@ -592,7 +586,7 @@ Parsed CUDA implicit link information from above output:
     arg [-dynamic-linker] ==> ignore
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_c9d16] ==> ignore
+    arg [cmTC_98deb] ==> ignore
     arg [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtbegin.o] ==> ignore
@@ -602,18 +596,16 @@ Parsed CUDA implicit link information from above output:
     arg [-L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64]
     arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
     arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
-    arg [-L/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/ipp/lib/intel64] ==> dir [/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/ipp/lib/intel64]
-    arg [-L/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/compiler/lib/intel64] ==> dir [/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/compiler/lib/intel64]
-    arg [-L/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/mkl/lib/intel64] ==> dir [/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/mkl/lib/intel64]
-    arg [-L/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/tbb/lib/intel64/gcc4.4] ==> dir [/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/tbb/lib/intel64/gcc4.4]
-    arg [-L/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/daal/lib/intel64_lin] ==> dir [/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/daal/lib/intel64_lin]
-    arg [-L/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/daal/../tbb/lib/intel64_lin/gcc4.4] ==> dir [/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/daal/../tbb/lib/intel64_lin/gcc4.4]
-    arg [-L/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/daal/../compiler/lib/intel64_lin] ==> dir [/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/daal/../compiler/lib/intel64_lin]
-    arg [-L/u/samar/Documents/git/caffe2/install/lib] ==> dir [/u/samar/Documents/git/caffe2/install/lib]
+    arg [-L/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/ipp/lib/intel64] ==> dir [/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/ipp/lib/intel64]
+    arg [-L/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/compiler/lib/intel64_lin] ==> dir [/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/compiler/lib/intel64_lin]
+    arg [-L/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/mkl/lib/intel64_lin] ==> dir [/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/mkl/lib/intel64_lin]
+    arg [-L/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/tbb/lib/intel64/gcc4.4] ==> dir [/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/tbb/lib/intel64/gcc4.4]
+    arg [-L/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/daal/lib/intel64_lin] ==> dir [/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/daal/lib/intel64_lin]
+    arg [-L/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/daal/../tbb/lib/intel64_lin/gcc4.4] ==> dir [/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/daal/../tbb/lib/intel64_lin/gcc4.4]
     arg [-L/u/samar/Documents/git/caffe2/install/lib] ==> dir [/u/samar/Documents/git/caffe2/install/lib]
     arg [-L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../..] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../..]
-    arg [CMakeFiles/cmTC_c9d16.dir/CMakeCUDACompilerABI.cu.o] ==> ignore
-    arg [CMakeFiles/cmTC_c9d16.dir/cmake_device_link.o] ==> ignore
+    arg [CMakeFiles/cmTC_98deb.dir/CMakeCUDACompilerABI.cu.o] ==> ignore
+    arg [CMakeFiles/cmTC_98deb.dir/cmake_device_link.o] ==> ignore
     arg [-lcudadevrt] ==> lib [cudadevrt]
     arg [-lcudart_static] ==> lib [cudart_static]
     arg [-lrt] ==> lib [rt]
@@ -634,46 +626,44 @@ Parsed CUDA implicit link information from above output:
   collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64] ==> [/usr/lib64]
   collapse library dir [/lib/../lib64] ==> [/lib64]
   collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
-  collapse library dir [/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/ipp/lib/intel64] ==> [/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/ipp/lib/intel64]
-  collapse library dir [/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/compiler/lib/intel64] ==> [/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/compiler/lib/intel64]
-  collapse library dir [/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/mkl/lib/intel64] ==> [/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/mkl/lib/intel64]
-  collapse library dir [/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/tbb/lib/intel64/gcc4.4] ==> [/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/tbb/lib/intel64/gcc4.4]
-  collapse library dir [/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/daal/lib/intel64_lin] ==> [/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/daal/lib/intel64_lin]
-  collapse library dir [/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/daal/../tbb/lib/intel64_lin/gcc4.4] ==> [/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/tbb/lib/intel64_lin/gcc4.4]
-  collapse library dir [/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/daal/../compiler/lib/intel64_lin] ==> [/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/compiler/lib/intel64_lin]
-  collapse library dir [/u/samar/Documents/git/caffe2/install/lib] ==> [/u/samar/Documents/git/caffe2/install/lib]
+  collapse library dir [/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/ipp/lib/intel64] ==> [/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/ipp/lib/intel64]
+  collapse library dir [/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/compiler/lib/intel64_lin] ==> [/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/compiler/lib/intel64_lin]
+  collapse library dir [/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/mkl/lib/intel64_lin] ==> [/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/mkl/lib/intel64_lin]
+  collapse library dir [/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/tbb/lib/intel64/gcc4.4] ==> [/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/tbb/lib/intel64/gcc4.4]
+  collapse library dir [/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/daal/lib/intel64_lin] ==> [/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/daal/lib/intel64_lin]
+  collapse library dir [/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/daal/../tbb/lib/intel64_lin/gcc4.4] ==> [/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/tbb/lib/intel64_lin/gcc4.4]
   collapse library dir [/u/samar/Documents/git/caffe2/install/lib] ==> [/u/samar/Documents/git/caffe2/install/lib]
   collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../..] ==> [/usr/lib]
   implicit libs: [cudadevrt;cudart_static;rt;pthread;dl;stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
-  implicit dirs: [/v/apps/cuda/9.2.148/lib64/stubs;/v/apps/cuda/9.2.148/lib64;/usr/lib/gcc/x86_64-redhat-linux/4.8.5;/usr/lib64;/lib64;/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/ipp/lib/intel64;/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/compiler/lib/intel64;/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/mkl/lib/intel64;/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/tbb/lib/intel64/gcc4.4;/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/daal/lib/intel64_lin;/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/tbb/lib/intel64_lin/gcc4.4;/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/compiler/lib/intel64_lin;/u/samar/Documents/git/caffe2/install/lib;/usr/lib]
+  implicit dirs: [/v/apps/cuda/9.2.148/lib64/stubs;/v/apps/cuda/9.2.148/lib64;/usr/lib/gcc/x86_64-redhat-linux/4.8.5;/usr/lib64;/lib64;/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/ipp/lib/intel64;/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/compiler/lib/intel64_lin;/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/mkl/lib/intel64_lin;/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/tbb/lib/intel64/gcc4.4;/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/daal/lib/intel64_lin;/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/tbb/lib/intel64_lin/gcc4.4;/u/samar/Documents/git/caffe2/install/lib;/usr/lib]
   implicit fwks: []
 
 
 Determining if the include file pthread.h exists passed with the following output:
 Change Dir: /u/samar/Documents/git/cuda/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_044b3/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_044b3.dir/build.make CMakeFiles/cmTC_044b3.dir/build
+Run Build Command:"/usr/bin/gmake" "cmTC_12f13/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_12f13.dir/build.make CMakeFiles/cmTC_12f13.dir/build
 gmake[1]: Entering directory `/u/samar/Documents/git/cuda/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_044b3.dir/CheckIncludeFile.cxx.o
-/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/bin/intel64/icpc     -o CMakeFiles/cmTC_044b3.dir/CheckIncludeFile.cxx.o -c /u/samar/Documents/git/cuda/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
-Linking CXX executable cmTC_044b3
-/v/apps/cmake/3.9.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_044b3.dir/link.txt --verbose=1
-/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/bin/intel64/icpc       CMakeFiles/cmTC_044b3.dir/CheckIncludeFile.cxx.o  -o cmTC_044b3 
+Building CXX object CMakeFiles/cmTC_12f13.dir/CheckIncludeFile.cxx.o
+/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/bin/intel64/icpc     -o CMakeFiles/cmTC_12f13.dir/CheckIncludeFile.cxx.o -c /u/samar/Documents/git/cuda/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_12f13
+/v/apps/cmake/3.9.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_12f13.dir/link.txt --verbose=1
+/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/bin/intel64/icpc       CMakeFiles/cmTC_12f13.dir/CheckIncludeFile.cxx.o  -o cmTC_12f13 
 gmake[1]: Leaving directory `/u/samar/Documents/git/cuda/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Determining if the function pthread_create exists in the pthread passed with the following output:
 Change Dir: /u/samar/Documents/git/cuda/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_8dad0/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_8dad0.dir/build.make CMakeFiles/cmTC_8dad0.dir/build
+Run Build Command:"/usr/bin/gmake" "cmTC_f1258/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_f1258.dir/build.make CMakeFiles/cmTC_f1258.dir/build
 gmake[1]: Entering directory `/u/samar/Documents/git/cuda/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_8dad0.dir/CheckFunctionExists.cxx.o
-/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/bin/intel64/icpc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_8dad0.dir/CheckFunctionExists.cxx.o -c /u/samar/Documents/git/cuda/cmake-build-debug/CMakeFiles/CheckLibraryExists/CheckFunctionExists.cxx
-Linking CXX executable cmTC_8dad0
-/v/apps/cmake/3.9.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8dad0.dir/link.txt --verbose=1
-/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/bin/intel64/icpc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_8dad0.dir/CheckFunctionExists.cxx.o  -o cmTC_8dad0 -lpthread 
+Building CXX object CMakeFiles/cmTC_f1258.dir/CheckFunctionExists.cxx.o
+/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/bin/intel64/icpc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_f1258.dir/CheckFunctionExists.cxx.o -c /u/samar/Documents/git/cuda/cmake-build-debug/CMakeFiles/CheckLibraryExists/CheckFunctionExists.cxx
+Linking CXX executable cmTC_f1258
+/v/apps/cmake/3.9.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f1258.dir/link.txt --verbose=1
+/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/bin/intel64/icpc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_f1258.dir/CheckFunctionExists.cxx.o  -o cmTC_f1258 -lpthread 
 gmake[1]: Leaving directory `/u/samar/Documents/git/cuda/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 

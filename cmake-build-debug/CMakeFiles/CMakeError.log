@@ -1,19 +1,19 @@
 Determining if the pthread_create exist failed with the following output:
 Change Dir: /u/samar/Documents/git/cuda/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_fafc9/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_fafc9.dir/build.make CMakeFiles/cmTC_fafc9.dir/build
+Run Build Command:"/usr/bin/gmake" "cmTC_f8fe9/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_f8fe9.dir/build.make CMakeFiles/cmTC_f8fe9.dir/build
 gmake[1]: Entering directory `/u/samar/Documents/git/cuda/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_fafc9.dir/CheckSymbolExists.cxx.o
-/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/bin/intel64/icpc     -o CMakeFiles/cmTC_fafc9.dir/CheckSymbolExists.cxx.o -c /u/samar/Documents/git/cuda/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
-Linking CXX executable cmTC_fafc9
-/v/apps/cmake/3.9.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fafc9.dir/link.txt --verbose=1
-/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/bin/intel64/icpc       CMakeFiles/cmTC_fafc9.dir/CheckSymbolExists.cxx.o  -o cmTC_fafc9 
-CMakeFiles/cmTC_fafc9.dir/CheckSymbolExists.cxx.o: In function `main':
+Building CXX object CMakeFiles/cmTC_f8fe9.dir/CheckSymbolExists.cxx.o
+/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/bin/intel64/icpc     -o CMakeFiles/cmTC_f8fe9.dir/CheckSymbolExists.cxx.o -c /u/samar/Documents/git/cuda/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTC_f8fe9
+/v/apps/cmake/3.9.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f8fe9.dir/link.txt --verbose=1
+/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/bin/intel64/icpc       CMakeFiles/cmTC_f8fe9.dir/CheckSymbolExists.cxx.o  -o cmTC_f8fe9 
+CMakeFiles/cmTC_f8fe9.dir/CheckSymbolExists.cxx.o: In function `main':
 CheckSymbolExists.cxx:(.text+0x23): undefined reference to `pthread_create'
-gmake[1]: *** [cmTC_fafc9] Error 1
+gmake[1]: *** [cmTC_f8fe9] Error 1
 gmake[1]: Leaving directory `/u/samar/Documents/git/cuda/cmake-build-debug/CMakeFiles/CMakeTmp'
-gmake: *** [cmTC_fafc9/fast] Error 2
+gmake: *** [cmTC_f8fe9/fast] Error 2
 
 File /u/samar/Documents/git/cuda/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
 /* */
@@ -33,17 +33,17 @@ int main(int argc, char** argv)
 Determining if the function pthread_create exists in the pthreads failed with the following output:
 Change Dir: /u/samar/Documents/git/cuda/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_6266f/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_6266f.dir/build.make CMakeFiles/cmTC_6266f.dir/build
+Run Build Command:"/usr/bin/gmake" "cmTC_55fce/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_55fce.dir/build.make CMakeFiles/cmTC_55fce.dir/build
 gmake[1]: Entering directory `/u/samar/Documents/git/cuda/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_6266f.dir/CheckFunctionExists.cxx.o
-/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/bin/intel64/icpc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_6266f.dir/CheckFunctionExists.cxx.o -c /u/samar/Documents/git/cuda/cmake-build-debug/CMakeFiles/CheckLibraryExists/CheckFunctionExists.cxx
-Linking CXX executable cmTC_6266f
-/v/apps/cmake/3.9.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6266f.dir/link.txt --verbose=1
-/v/apps/intel/composer_xe_2016_update3/compilers_and_libraries_2016.3.210/linux/bin/intel64/icpc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_6266f.dir/CheckFunctionExists.cxx.o  -o cmTC_6266f -lpthreads 
+Building CXX object CMakeFiles/cmTC_55fce.dir/CheckFunctionExists.cxx.o
+/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/bin/intel64/icpc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_55fce.dir/CheckFunctionExists.cxx.o -c /u/samar/Documents/git/cuda/cmake-build-debug/CMakeFiles/CheckLibraryExists/CheckFunctionExists.cxx
+Linking CXX executable cmTC_55fce
+/v/apps/cmake/3.9.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_55fce.dir/link.txt --verbose=1
+/v/apps/intel/composer_xe_2017/compilers_and_libraries_2017.1.132/linux/bin/intel64/icpc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_55fce.dir/CheckFunctionExists.cxx.o  -o cmTC_55fce -lpthreads 
 ld: cannot find -lpthreads
-gmake[1]: *** [cmTC_6266f] Error 1
+gmake[1]: *** [cmTC_55fce] Error 1
 gmake[1]: Leaving directory `/u/samar/Documents/git/cuda/cmake-build-debug/CMakeFiles/CMakeTmp'
-gmake: *** [cmTC_6266f/fast] Error 2
+gmake: *** [cmTC_55fce/fast] Error 2
 
 

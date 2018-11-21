@@ -1,1 +1,1 @@
-/v/apps/cuda/9.2.148/bin/nvcc -g  -Xcompiler=-fPIC -Wno-deprecated-gpu-targets -shared -dlink CMakeFiles/cudaPerfProj.dir/b.cu.o -o CMakeFiles/cudaPerfProj.dir/cmake_device_link.o 
+/v/apps/cuda/9.2.148/bin/nvcc   -Xcompiler=-fPIC -Wno-deprecated-gpu-targets -shared -dlink CMakeFiles/cudaPerfProj.dir/b.cu.o -o CMakeFiles/cudaPerfProj.dir/cmake_device_link.o 

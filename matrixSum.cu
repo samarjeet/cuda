@@ -2,6 +2,7 @@
 #include<stdio.h>
 #include <cuda.h>
 #include <chrono>
+#include <random>
 #include "common.h"
 
 int getDeviceProperties(){
@@ -34,6 +35,15 @@ __global__ void sumMatrixOnGPU2D(float *a, float *b, float *c, int nx, int ny){
   }
 }
 
+
+void initialize(float *a, int size){
+  std::default_random_engine generator;
+  std::uniform_real_distribution<float> distribution(0.0, 1.0);
+  for (int i=0; i< size; ++i){
+    a[i] =  distribution(generator);
+  }
+
+}
 int main(int argc, char *argv[]){
   getDeviceProperties();
   int nx = 1<<14;
@@ -49,12 +59,15 @@ int main(int argc, char *argv[]){
   h_b = (float*)malloc(sizeof(float)*nx*ny);
   h_c = (float*)malloc(sizeof(float)*nx*ny);
 
-  for (int i=0 ; i < nx; ++i){
-      for (int j=0; j < ny; ++j){
-          h_a[j * nx + i ] = 1.0;
-          h_b[j * nx + i ] = 2.0;
-      }
-  }
+  //for (int i=0 ; i < nx; ++i){
+  //    for (int j=0; j < ny; ++j){
+  //        h_a[j * nx + i ] = 1.0;
+  //        h_b[j * nx + i ] = 2.0;
+  //    }
+  //}
+
+  initialize(h_a, nx*ny);
+  initialize(h_b, nx*ny);
 
   cudaMalloc(&d_a, sizeof(float)*nx*ny);
   cudaMalloc(&d_b, sizeof(float)*nx*ny);
