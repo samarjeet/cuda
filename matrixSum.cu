@@ -2,6 +2,7 @@
 #include<stdio.h>
 #include <cuda.h>
 #include <chrono>
+#include "common.h"
 
 int getDeviceProperties(){
   cudaDeviceProp iProp;
@@ -33,8 +34,11 @@ __global__ void sumMatrixOnGPU2D(float *a, float *b, float *c, int nx, int ny){
 }
 
 int main(int argc, char *argv[]){
+  getDeviceProperties();
   int nx = 1<<14;
   int ny = 1<<14;
+  //int nx = 1<<7;
+  //int ny = 1<<7;
 
 
   float *d_a, *d_b, *d_c;
@@ -73,7 +77,7 @@ int main(int argc, char *argv[]){
   dim3 grid((nx + block.x - 1 )/ block.x, (ny + block.y -1)/block.y);
 
   //size_t iStart, eElaps;
-  cudaDeviceSynchronize();
+  CHECK(cudaDeviceSynchronize());
   auto iStart = std::chrono::system_clock::now();
   sumMatrixOnGPU2D<<<grid, block >>>(d_a, d_b, d_c, nx, ny);
   auto iEnd = std::chrono::system_clock::now();
