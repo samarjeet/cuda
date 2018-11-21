@@ -85,5 +85,15 @@ int main(int argc, char *argv[]){
   std::chrono::duration<double> diff = iEnd - iStart;
   std::cout << "Time : " << diff.count() << "s \n";
   cudaMemcpy(&h_c, &d_c, sizeof(float)*nx*ny, cudaMemcpyDeviceToHost);
+
+  // Free device memory
+  cudaFree(d_a);
+  cudaFree(d_b);
+  cudaFree(d_c);
+
+  // Free host memory
+  free(h_a);
+  free(h_b);
+  free(h_c);
   return 0;
 }
