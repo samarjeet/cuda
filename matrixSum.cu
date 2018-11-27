@@ -44,6 +44,8 @@ void initialize(float *a, int size){
   }
 
 }
+
+
 int main(int argc, char *argv[]){
   getDeviceProperties();
   int nx = 1<<14;
@@ -78,6 +80,7 @@ int main(int argc, char *argv[]){
 
 
   int dimx, dimy;
+
   if (argc > 2) {
     dimx = atoi(argv[1]);
     dimy = atoi(argv[2]);
