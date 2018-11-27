@@ -1,0 +1,28 @@
+/v/apps/cmake/3.7.1-ubuntu/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /u/samar/Documents/git/cuda
+-- The CXX compiler identification is GNU 4.8.4
+CMake Error: Could not find cmake module file: CMakeDetermineCUDACompiler.cmake
+CMake Error: Error required internal CMake variable not set, cmake may be not be built correctly.
+Missing variable is:
+CMAKE_CUDA_COMPILER_ENV_VAR
+CMake Error: Error required internal CMake variable not set, cmake may be not be built correctly.
+Missing variable is:
+CMAKE_CUDA_COMPILER
+CMake Error: Could not find cmake module file: /u/samar/Documents/git/cuda/cmake-build-debug/CMakeFiles/3.7.1/CMakeCUDACompiler.cmake
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+CMake Error at CMakeLists.txt:2 (project):
+  No CMAKE_CUDA_COMPILER could be found.
+
+  Tell CMake where to find the compiler by setting the CMake cache entry
+  CMAKE_CUDA_COMPILER to the full path to the compiler, or to the compiler
+  name if it is in the PATH.
+
+
+CMake Error: Could not find cmake module file: CMakeCUDAInformation.cmake
+CMake Error: CMAKE_CUDA_COMPILER not set, after EnableLanguage
+-- Configuring incomplete, errors occurred!
+See also "/u/samar/Documents/git/cuda/cmake-build-debug/CMakeFiles/CMakeOutput.log".
