@@ -18,5 +18,6 @@ int main(){
   std::cout << iProp.maxThreadsPerBlock << "  \n";
   std::cout << iProp.maxThreadsPerMultiProcessor << "  \n";
   std::cout << iProp.maxThreadsPerMultiProcessor/32 << "  \n";
+  std::cout << iProp.major << " " << iProp.minor << "  \n";
   return 0;
 }
