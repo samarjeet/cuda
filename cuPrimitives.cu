@@ -65,7 +65,13 @@ void precision(){
 
   // Correctness
 }
+
+void intrinsic(){
+  
+}
+
 int main(int argc, char** argv){
-  precision();
+  //precision();
+  intrinsic();
   return 0;
 }
